@@ -1880,6 +1880,8 @@ body {
 
     flex-basis: 100%;
 
+    border-bottom: 1.5px solid black;
+
   }
 
   .landing .container .abut-us .box {
@@ -1966,7 +1968,7 @@ body {
 
 .sponsors .container {
 
-  row-gap: 25px;
+  row-gap: 33px;
 }
 
 .landing .container .text h1 {
@@ -2064,7 +2066,7 @@ body {
 
 .features .container .info h2 {
 
-  font-size: 25px;
+  font-size: 26px;
 
 }
 
@@ -2103,6 +2105,35 @@ body {
 .footer .container .sec-footer {
 
   width: 250px;
+}
+
+.landing .container .text h1 {
+
+  font-size: 44px;
+
+}
+
+.features .container .info .star {
+
+  font-size:33px;
+}
+
+.solution .container .info .Pizza {
+
+font-size:33px;
+
+}
+
+.solution{
+
+  margin-top: 35px;
+
+}
+
+.solution .container .info .info-text h2 {
+
+  font-size: 31px;
+
 }
 
 }
@@ -2166,11 +2197,6 @@ body {
     text-align: center;
   }
 
-  .solution .container .info .info-text h2 {
-
-    font-size: 29px;
-  }
-
   .solution .container .info .Pizza {
 
     margin-top: 0px;
@@ -2187,9 +2213,7 @@ body {
 
   .features {
 
-    position: relative;
-
-    padding-top: var(--padding-top-main-sections);
+    padding-top: 0;
 
 }
 
